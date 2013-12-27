@@ -18,6 +18,7 @@ BuildRequires:	mate-file-manager-devel >= 1.1.0
 BuildRequires:	pkgconfig
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
+Requires:	gksu
 Requires:	mate-file-manager >= 1.1.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
